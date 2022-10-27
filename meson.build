@@ -1,7 +1,7 @@
 project('cgltf', 'c')
 
 
-lib = static_library('cgltf', 'cgltf.c',
+lib = library('cgltf', 'cgltf.c',
   include_directories : ['.']
 )
 
